@@ -20,10 +20,11 @@ function CareerSection({ careers }) {
                   <div className="title-kr">{career.kr}</div>
                   <div className="position">{career.position}</div>
                 </div>
-              </div>
-              <div className="activity">
-                {career.activity}&nbsp;
-                {career.links && <IconButtonBar links={career.links} />}
+
+                <div className="activity">
+                  {career.activity}&nbsp;
+                  {career.links && <IconButtonBar links={career.links} />}
+                </div>
               </div>
             </div>
           ),
