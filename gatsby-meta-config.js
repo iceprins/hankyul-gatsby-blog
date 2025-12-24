@@ -1,8 +1,8 @@
 module.exports = {
-  title: `zoomkoding.com`,
-  description: `줌코딩의 개발일기`,
+  title: `hankyul-jung.com`,
+  description: `개발자 정한결`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://www.zoomkoding.com`,
+  siteUrl: `https://hankyul-jung.com`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
@@ -11,26 +11,29 @@ module.exports = {
   },
   ga: '0', // Google Analytics Tracking ID
   author: {
-    name: `정진혁`,
+    name: `정한결`,
     bio: {
       role: `개발자`,
-      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
+      description: ['성장에 목마른', '세상에 도움이 되는', '더 나은 방법을 고민하는'],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {
-      github: ``, // `https://github.com/zoomKoding`,
-      linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
-      email: ``, // `zoomkoding@gmail.com`,
+      github: `https://github.com/iceprins`,
+      linkedIn: `www.linkedin.com/in/hankyul-jung`,
+      email: `junghankyul@gmail.com`,
     },
   },
 
   // metadata for About Page
   about: {
-    timestamps: [
+    careers: [
       // =====       [Timestamp Sample and Structure]      =====
       // ===== 🚫 Don't erase this sample (여기 지우지 마세요!) =====
       {
         date: '',
+        en: '',
+        kr: '',
+        position: '',
         activity: '',
         links: {
           github: '',
@@ -43,12 +46,15 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        date: '2021.02 ~',
+        date: '2024.10 ~ 2025.11',
+        en: 'Keepsmile Inc.',
+        kr: '주식회사 킵스마일',
+        position: 'Backend Developer',
         activity: '개인 블로그 개발 및 운영',
         links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
+          // post: '/gatsby-starter-zoomkoding-introduction',
+          // github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
+          // demo: 'https://www.zoomkoding.com',
         },
       },
     ],

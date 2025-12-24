@@ -3,18 +3,18 @@ import { graphql } from 'gatsby';
 import Layout from '../layout';
 import Seo from '../components/seo';
 import Bio from '../components/bio';
-import TimeStampSection from '../components/timestamp-section';
+import CareerSection from '../components/career-section';
 import ProjectSection from '../components/project-section';
 
 function AboutPage({ data }) {
   const metaData = data.site.siteMetadata;
   const { author, about, language } = metaData;
-  const { timestamps, projects } = about;
+  const { careers, projects } = about;
   return (
     <Layout>
       <Seo title="About" />
       <Bio author={author} language={language} />
-      <TimeStampSection timestamps={timestamps} />
+      <CareerSection careers={careers} />
       <ProjectSection projects={projects} />
     </Layout>
   );
@@ -44,9 +44,12 @@ export const pageQuery = graphql`
         }
 
         about {
-          timestamps {
+          careers {
             date
-            activity
+            title
+            en
+            kr
+            position
             links {
               post
               github
