@@ -9,13 +9,13 @@ import ProjectSection from '../components/project-section';
 function AboutPage({ data }) {
   const metaData = data.site.siteMetadata;
   const { author, about, language } = metaData;
-  const { careers, projects } = about;
+  const { careers } = about;
   return (
     <Layout>
       <Seo title="About" />
       <Bio author={author} language={language} />
       <CareerSection careers={careers} />
-      <ProjectSection projects={projects} />
+      {/* <ProjectSection projects={projects} /> */}
     </Layout>
   );
 }
@@ -50,20 +50,6 @@ export const pageQuery = graphql`
             en
             kr
             position
-            links {
-              post
-              github
-              demo
-              googlePlay
-              appStore
-            }
-          }
-
-          projects {
-            title
-            description
-            techStack
-            thumbnailUrl
             links {
               post
               github
