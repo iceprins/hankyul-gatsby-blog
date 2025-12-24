@@ -46,7 +46,6 @@ export const pageQuery = graphql`
         about {
           careers {
             date
-            title
             en
             kr
             position
