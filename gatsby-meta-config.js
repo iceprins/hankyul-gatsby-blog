@@ -20,6 +20,7 @@ module.exports = {
     social: {
       github: `https://github.com/iceprins`,
       linkedIn: `https://www.linkedin.com/in/hankyul-jung`,
+      instagram: `https://www.instagram.com/kyul_film`,
       email: `junghankyul@gmail.com`,
     },
   },
@@ -50,7 +51,7 @@ module.exports = {
         en: 'Keepsmile Inc.',
         kr: '주식회사 킵스마일',
         position: 'Backend Developer',
-        activity: '개인 블로그 개발 및 운영',
+        activity: '',
         links: {
           // post: '/gatsby-starter-zoomkoding-introduction',
           // github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
