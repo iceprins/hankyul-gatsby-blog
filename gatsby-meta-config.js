@@ -19,7 +19,7 @@ module.exports = {
     },
     social: {
       github: `https://github.com/iceprins`,
-      linkedIn: `www.linkedin.com/in/hankyul-jung`,
+      linkedIn: `https://www.linkedin.com/in/hankyul-jung`,
       email: `junghankyul@gmail.com`,
     },
   },
