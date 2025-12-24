@@ -16,8 +16,10 @@ function CareerSection({ careers }) {
 
               <div className="right">
                 <div className="title">
-                  <div className="title-en">{career.en}</div>
-                  <div className="title-kr">{career.kr}</div>
+                  <div className="company-line">
+                    <span className="title-en">{career.en}</span>
+                    <span className="title-kr">{career.kr}</span>
+                  </div>
                   <div className="position">{career.position}</div>
                 </div>
 
